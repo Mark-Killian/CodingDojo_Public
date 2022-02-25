@@ -1,0 +1,24 @@
+.my {
+    color: white;
+    background-color: black
+}
+
+#cloud {
+    color: aqua;
+    background-color: black;
+}
+
+.projects {
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact_us {
+    color: black;
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+    
+}
