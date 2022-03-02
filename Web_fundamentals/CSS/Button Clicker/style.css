@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* justify-content is the x-axis */
+/* align-items is the y-axis */
+.flex {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+main {
+    /* background-color: rebeccapurple; */
+    /* border: 2px solid black;  */
+    width: 70%;
+    /* center the whole content page */
+    margin: 0 auto;
+}
+
+nav {
+    background-color: gray;
+    border: 2px solid black;
+    min-height: 50px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.page-content {
+    /* background-color: coral; */
+    min-height: 750px;
+}
+
+.col-left {
+    /* border: 2px solid black; */
+    flex: 2;
+}
+
+.col-right {
+    border: 2px solid black;
+    flex: 1;
+    height: 75px;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid black;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subject {
+    /* border: 2px solid orange; */
+    flex: 1;
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* align-self: center; */
+}
+
+.definition {
+    /* border: 2px solid hotpink; */
+    flex: 3;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.likes {
+    background-color: gold;
+    padding: 10px 5px;
+}
+
+.add-definition {
+    background-color: #93c47d;
+    padding: 10px 5px;
+}
